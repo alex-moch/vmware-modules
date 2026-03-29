@@ -26,6 +26,15 @@ cd vmnet-only && make CC=clang LD=ld.lld && cd ..
 
 When built via Gentoo's `linux-mod-r1` eclass, the correct compiler is picked up automatically from the kernel configuration.
 
+## Mirrors
+
+This repository is mirrored on Codeberg, GitLab, GitHub and SourceHut:
+
+- https://codeberg.org/alexm/vmware-modules
+- https://gitlab.com/alex-moch/vmware-modules
+- https://github.com/alex-moch/vmware-modules
+- https://git.sr.ht/~alexm/vmware-modules
+
 ## License
 
 GPL-2.0
