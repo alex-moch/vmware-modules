@@ -1,0 +1,20 @@
+# Kernel module build artifacts
+*.o
+*.o.cmd
+*.ko
+*.ko.cmd
+*.mod
+*.mod.c
+*.mod.cmd
+*.mod.o
+*.mod.o.cmd
+.module-common.o
+..module-common.o.cmd
+Module.symvers
+.Module.symvers.cmd
+modules.order
+.modules.order.cmd
+
+# Top-level module objects
+vmmon.o
+vmnet.o
